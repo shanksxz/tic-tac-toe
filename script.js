@@ -71,6 +71,7 @@ function checkGameOver() {
     if(answer!= ""){
         gameInfo.innerText = `Winner Player - ${answer}`;
         newGameBtn.classList.add('active');
+        return;
     }
 
     let boxfill = 0;
